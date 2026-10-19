@@ -1,0 +1,41 @@
+{
+  "id": "paper-mental-labor-review",
+  "title": "Gendered Mental Labor: A Systematic Literature Review on the Cognitive Dimension of Unpaid Work Within the Household and Childcare",
+  "shortTitle": "看见隐形劳动：系统综述",
+  "author": "Natalia Reich-Stiebert；Laura Froehlich；Jan-Bennet Voltmer",
+  "year": 2023,
+  "group": "planning",
+  "type": "研究论文",
+  "sourceURL": "https://link.springer.com/article/10.1007/s11199-023-01362-0",
+  "pdfURL": "https://link.springer.com/content/pdf/10.1007/s11199-023-01362-0.pdf",
+  "summary": "系统梳理31篇研究，将家务和育儿的记忆、计划、协调等纳入认知劳动；多见女性承担更多，样本主要来自欧美中产家庭。",
+  "readingFocus": "PDF第3–4页方法与筛选流程；第5页研究表；第11页五个维度；第12–13页结果与讨论；第16页结论。",
+  "licenseNote": "©2023作者；CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。原PDF未改，选页JPEG仅作缩放渲染；作者及来源保留。",
+  "versionNote": "Sex Roles 88:475–494（2023），2023年4月29日在线发表，原刊最终PDF。综述包含质性、调查和少量实验研究，不能将总体现象统一写成因果。",
+  "language": "英文",
+  "localPDF": "./assets/library/paper-mental-labor-review/original.pdf",
+  "cover": "./assets/library/paper-mental-labor-review/cover.jpg",
+  "previewPages": [
+    "./assets/library/paper-mental-labor-review/pages/page-01.jpg",
+    "./assets/library/paper-mental-labor-review/pages/page-02.jpg",
+    "./assets/library/paper-mental-labor-review/pages/page-03.jpg",
+    "./assets/library/paper-mental-labor-review/pages/page-04.jpg",
+    "./assets/library/paper-mental-labor-review/pages/page-05.jpg",
+    "./assets/library/paper-mental-labor-review/pages/page-06.jpg",
+    "./assets/library/paper-mental-labor-review/pages/page-07.jpg",
+    "./assets/library/paper-mental-labor-review/pages/page-08.jpg"
+  ],
+  "previewPageNumbers": [
+    1,
+    3,
+    4,
+    5,
+    11,
+    12,
+    13,
+    16
+  ],
+  "pageCount": 20,
+  "previewNote": "原文选页预览（PDF页序：1、3、4、5、11、12、13、16）",
+  "sha256": "d858ad5be5c678df0d4af3f55a9617bdf58cdb2081ab6f4a07690f8d8263332d"
+}

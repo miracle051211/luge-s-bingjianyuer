@@ -1,0 +1,6 @@
+/* 第十二版：仅手机端阶段选择卡使用圆角，沿用原有760px断点。 */
+@media screen and (max-width: 760px) {
+  .stage-journey .journey-stop {
+    border-radius: 12px;
+  }
+}

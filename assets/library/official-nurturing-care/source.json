@@ -1,0 +1,42 @@
+{
+  "id": "official-nurturing-care",
+  "title": "Nurturing care for early childhood development: a framework for helping children survive and thrive to transform health and human potential",
+  "shortTitle": "养育照护框架",
+  "author": "WHO、UNICEF、世界银行集团",
+  "year": 2018,
+  "group": "framework",
+  "sourceURL": "https://www.who.int/publications/i/item/9789241514064/",
+  "summary": "用健康、营养、回应、安全与早期学习五个方面理解幼儿成长，并说明支持家庭照护所需的政策和服务。",
+  "readingFocus": "五个照护组成：印刷页12–15（PDF第18–21页）；家庭与社区：印刷页29（PDF第35页）。",
+  "licenseNote": "CC BY-NC-SA 3.0 IGO（原文版权页）；原件署名与第三方材料声明保留，不表示机构为本项目背书。",
+  "type": "官方指南",
+  "language": "英文",
+  "pdfURL": "https://iris.who.int/server/api/core/bitstreams/781de51d-4cef-482e-bb3b-c2b3becf3c9f/content",
+  "localPDF": "./assets/library/official-nurturing-care/original.pdf",
+  "cover": "./assets/library/official-nurturing-care/cover.jpg",
+  "previewPages": [
+    "./assets/library/official-nurturing-care/pages/preview-01.jpg",
+    "./assets/library/official-nurturing-care/pages/preview-02.jpg",
+    "./assets/library/official-nurturing-care/pages/preview-03.jpg",
+    "./assets/library/official-nurturing-care/pages/preview-04.jpg",
+    "./assets/library/official-nurturing-care/pages/preview-05.jpg",
+    "./assets/library/official-nurturing-care/pages/preview-06.jpg",
+    "./assets/library/official-nurturing-care/pages/preview-07.jpg",
+    "./assets/library/official-nurturing-care/pages/preview-08.jpg"
+  ],
+  "previewPageNumbers": [
+    1,
+    4,
+    5,
+    18,
+    19,
+    20,
+    21,
+    35
+  ],
+  "pageCount": 64,
+  "previewNote": "原文选页预览（PDF页序）；原PDF完整保留。",
+  "sha256": "eea856f5a038237bb5ece5ade88b0d6172547b4eb6f4271c37a488567566c492",
+  "pageCountNote": "按下载PDF的实际页数计，包含封面、版权、目录等；与出版网页或正文印刷页数口径可能不同。",
+  "yearEvidence": "原PDF版权页与官方出版页核对。"
+}

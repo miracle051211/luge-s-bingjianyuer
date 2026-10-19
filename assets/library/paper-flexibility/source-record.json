@@ -1,0 +1,41 @@
+{
+  "id": "paper-flexibility",
+  "title": "When Dad Can Stay Home: Fathers' Workplace Flexibility and Maternal Health",
+  "shortTitle": "父亲灵活休假与母亲健康",
+  "author": "Petra Persson；Maya Rossin-Slater",
+  "year": 2019,
+  "group": "leave",
+  "type": "工作论文",
+  "sourceURL": "https://www.nber.org/papers/w25902",
+  "pdfURL": "https://www.nber.org/papers/w25902.pdf",
+  "summary": "研究以瑞典改革作准实验，考察父亲灵活休假对母亲产后医疗利用的影响。工作稿报告部分并发症就诊和处方用药下降。",
+  "readingFocus": "PDF第2页摘要；第19页数据；第23页研究设计；第28页结果；第47–48页原始结果图。",
+  "licenseNote": "NBER公开工作稿；©2019作者，保留版权，未声明CC许可。本地课堂阅读副本，公开传播或再利用需核查权利。",
+  "versionNote": "NBER Working Paper 25902，2019年5月、2019年10月修订。本副本不是2024年AEJ: Applied Economics 16(4):186–219发表版；网站既有2024发表版分析图应仍按该发表版引用。",
+  "language": "英文",
+  "localPDF": "./assets/library/paper-flexibility/original.pdf",
+  "cover": "./assets/library/paper-flexibility/cover.jpg",
+  "previewPages": [
+    "./assets/library/paper-flexibility/pages/page-01.jpg",
+    "./assets/library/paper-flexibility/pages/page-02.jpg",
+    "./assets/library/paper-flexibility/pages/page-03.jpg",
+    "./assets/library/paper-flexibility/pages/page-04.jpg",
+    "./assets/library/paper-flexibility/pages/page-05.jpg",
+    "./assets/library/paper-flexibility/pages/page-06.jpg",
+    "./assets/library/paper-flexibility/pages/page-07.jpg",
+    "./assets/library/paper-flexibility/pages/page-08.jpg"
+  ],
+  "previewPageNumbers": [
+    1,
+    2,
+    19,
+    23,
+    28,
+    33,
+    47,
+    48
+  ],
+  "pageCount": 75,
+  "previewNote": "原文选页预览（PDF页序：1、2、19、23、28、33、47、48）",
+  "sha256": "7b1815fc0f51db22fd95cc9fe28bb43ddd3528206ae0dc9daa2af52680c59751"
+}

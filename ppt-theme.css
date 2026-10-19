@@ -1,0 +1,60 @@
+/* 内页主题，参考《高修正版》中的藏蓝标题栏与第 13–16 页字体。
+   只由 guide.html 加载；首页继续使用原有 home.css。 */
+:root {
+  --ink:#1F3552;
+  --navy:#2D4F81;
+  --blue:#2D4F81;
+  --muted:#516071;
+  --line:#D9E1EB;
+  --paper:#FFFFFF;
+  --bg:#F7F9FB;
+  --pale:#EAF0F7;
+  --accent:#C76635;
+  --ppt-heading:"SimHei","Microsoft YaHei","PingFang SC",sans-serif;
+  --ppt-body:"Microsoft YaHei","PingFang SC","Noto Sans SC",sans-serif;
+  font-family:var(--ppt-body);
+}
+body {-webkit-font-smoothing:antialiased}
+h1,h2,h3 {font-family:var(--ppt-heading);font-weight:400}
+.brand {font-family:var(--ppt-heading);color:var(--navy);font-weight:400}
+.brand small {font-family:var(--ppt-body)}
+.site-header {border-top-color:var(--navy)}
+.nav-button.active,.topic-tab[aria-selected="true"],.topic-tab.active,.mental-tab.active {border-bottom-color:var(--blue);color:var(--blue)}
+.intro {max-width:none;background:var(--navy);padding:16px 22px 18px;margin-bottom:23px;color:var(--paper)}
+.intro .eyebrow {color:#D9E1EB}
+.intro h1 {color:var(--paper);font-family:var(--ppt-heading);font-weight:400;letter-spacing:.3px}
+.intro .intro-copy {color:#F7F9FB}
+.stage-panel,.stage-heading,.content-split,.research-stage-grid {border-top-color:var(--navy)}
+.primary-button {background:var(--navy);border-color:var(--navy)}
+.primary-button:hover {background:#243F68;border-color:#243F68}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible {outline-color:var(--accent)}
+.number-field,.dialog-close,.research-figure-switch button,.research-library-modes button,.research-library-tools input,.research-library-tools select,.research-pagination button {border-color:#B6C4D6}
+.number-field input,.stage-badge,.evidence-metric strong,.task-card::before,.research-framework-grid article>span {font-family:var(--ppt-body);font-variant-numeric:tabular-nums}
+.stage-badge {border-bottom-color:#A6B8D1}
+.progress-track {background:var(--pale)}
+#progress-fill {background:var(--blue)}
+.task-check {border-color:#A6B8D1}
+.task-card::before,.task-tag,.mental-tab small,.research-framework-grid article>span {color:var(--muted)}
+.task-card.completed label {color:#61758C}
+.task-description,.task-card ol,.inline-actions,.research-topic-copy ul,.research-topic-copy ol,.research-concept-panel ul,.research-concept-panel ol,.research-limit p,.research-method {color:var(--muted)}
+.focus-card,.research-topic-copy .research-key-point,.research-framework-grid article {border-left-color:#71AECA}
+.conversation-card,.mental-example,.research-limit {background:var(--pale)}
+.conversation-card span {color:var(--muted)}
+.mental-example {border-left-color:var(--accent)}
+.extension-button,.research-actions button,.research-library-bar button {border-bottom-color:#A6B8D1}
+.article-dialog {border-color:#B6C4D6;box-shadow:0 15px 60px #1F355233}
+.article-dialog::backdrop {background:#1F3552CC}
+.article-dialog[data-fallback-open],.article-dialog[data-dialog-fallback="true"] {box-shadow:0 0 0 100vmax #1F3552CC,0 15px 60px #1F355233}
+.dialog-head,.dialog-heading {background:var(--pale)}
+.evidence-metric strong {font-weight:500;letter-spacing:0}
+.evidence-metric strong small {font-family:var(--ppt-body)}
+.research-data-table thead th {background:var(--pale)}
+.research-pagination button:disabled {color:#8391A2}
+@media(max-width:760px) {
+  .intro {padding:13px 16px 15px;margin-bottom:18px}
+}
+@media print {
+  .intro {background:white;color:black;padding:0}
+  .intro h1,.intro .intro-copy,.intro .eyebrow {color:black}
+  .dialog-head,.dialog-heading {background:white}
+}

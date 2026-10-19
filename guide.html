@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2D4F81">
+  <meta name="description" content="给准爸爸和新手爸爸的照护手册。按阶段看三件重点，按主题查做法与研究依据。">
+  <title>并肩育儿 · 父亲照护手册</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%232D4F81'/%3E%3Cpath d='M9 9h5v15H9zM18 9h5v15h-5z' fill='%23FFFFFF'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./handbook-v4.css">
+  <link rel="stylesheet" href="./ppt-theme.css">
+  <link rel="stylesheet" href="./interaction-v8.css">
+  <link rel="stylesheet" href="./bookshelf-v9.css">
+  <link rel="stylesheet" href="./bookshelf-v10.css">
+  <link rel="stylesheet" href="./handbook-v10.css">
+  <link rel="stylesheet" href="./bookshelf-v11.css">
+  <link rel="stylesheet" href="./handbook-v12.css">
+  <script src="./data.js" defer></script>
+  <script src="./content.js" defer></script>
+  <script src="./library-sources-v11.js" defer></script>
+  <script src="./knowledge-v4.js" defer></script>
+  <script src="./source-library-v11.js" defer></script>
+  <script src="./app.js" defer></script>
+  <script src="./interaction-v8.js" defer></script>
+  <script src="./vendor/turnjs/jquery-3.7.1.min.js" defer></script>
+  <script src="./vendor/turnjs/turn.min.js" defer></script>
+  <script src="./library-data-v11.js" defer></script>
+  <script src="./bookshelf-v11.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header"><div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="并肩育儿首页">并肩育儿<small>写给准爸爸和新手爸爸的照护手册</small></a>
+    <nav aria-label="栏目"><button class="nav-button active" id="guide-tab" aria-controls="guide-view" aria-pressed="true">阶段清单</button><button class="nav-button" id="knowledge-tab" aria-controls="knowledge-view" aria-pressed="false">照护做法</button><button class="nav-button" id="research-tab" aria-controls="research-view" aria-pressed="false">资料与研究</button></nav>
+  </div></header>
+  <main id="main" class="page-shell">
+    <section id="guide-view" aria-labelledby="page-title">
+      <div class="intro"><p class="eyebrow">阶段清单</p><h1 id="page-title">这段时间，你可以分担什么？</h1><p class="intro-copy">选一个阶段，先看三件可以负责的事。具体做法与参考资料，点开再读。</p></div>
+      <div class="workspace">
+        <aside class="stage-panel">
+          <h2>选择你们的阶段</h2>
+          <div class="segment" role="group" aria-label="孕期或出生后"><button id="pregnancy-mode" class="selected" aria-pressed="true">孕期</button><button id="baby-mode" aria-pressed="false">宝宝出生后</button></div>
+          <form id="stage-form" novalidate><label id="age-label" for="age-input">当前孕周</label><div class="number-field"><input id="age-input" type="number" inputmode="numeric" min="1" max="42" step="1" value="28" aria-describedby="age-hint input-error"><span id="age-unit">周</span></div><p id="age-hint" class="field-hint">按产检记录填写孕周。</p><p id="input-error" class="input-error" role="alert" hidden></p><button class="primary-button" type="submit">查看清单</button></form>
+          <p class="local-note">勾选记录保存在这个浏览器中。</p>
+        </aside>
+        <div class="result-area" id="guide-result" aria-live="polite" aria-atomic="false">
+          <div class="stage-heading"><div><p class="section-kicker">当前阶段</p><h2 id="stage-title">孕晚期：28 周起</h2><p id="stage-description">核对待产用品、出行和回家后的生活安排。</p><span class="stage-badge" id="stage-badge">孕 28 周</span></div><figure id="stage-picture" hidden><img id="stage-image" width="300" height="200" alt="待产用品线描示意"></figure></div>
+          <section class="task-section" aria-labelledby="task-heading"><div class="task-heading"><h3 id="task-heading">先看这三件事</h3><span id="progress-count">0 / 6 项</span></div><div class="progress-track" role="progressbar" aria-label="本阶段全部事项勾选进度" aria-valuemin="0" aria-valuemax="6" aria-valuenow="0"><div id="progress-fill"></div></div><div id="task-list" class="task-grid"></div><details id="more-tasks" class="more-tasks"><summary id="more-tasks-summary">还有三件日常事项</summary><div id="extra-task-list" class="task-grid extra-task-grid"></div></details><div class="task-footer"><span id="progress-message">勾选方便记录，照护还需要反复做。</span><button id="reset-progress" type="button">清空勾选</button></div></section>
+          <details id="stage-notes" class="stage-notes"><summary>另外留意、沟通与本阶段来源</summary><div class="stage-bottom"><section class="focus-card"><h3 id="focus-title">先试一遍，再看看缺什么</h3><ul id="focus-list"></ul><button class="text-button" type="button" data-view="knowledge">查看照护做法</button></section><aside class="source-mini"><span>这一页参考了</span><div id="stage-sources"></div></aside></div><div class="conversation-card"><span>也可以从这句话开始</span><p id="conversation-prompt">“宝宝出生后，我固定负责哪几件事比较合适？”</p></div></details>
+        </div>
+      </div>
+      <div class="care-boundary"><strong>使用范围</strong><p>孕周和月龄用于查内容。产检、身体不适与特殊喂养，请遵循专业医护人员指导；紧急情况及时就医。</p></div>
+    </section>
+    <section id="knowledge-view" hidden aria-labelledby="knowledge-title"><div class="intro"><p class="eyebrow">照护做法</p><h1 id="knowledge-title">把照护放进每天的生活</h1><p class="intro-copy">选一个主题，看看基本做法与需要留意的事。</p></div><div id="knowledge-content"></div></section>
+    <section id="research-view" hidden aria-labelledby="research-title"><div class="intro"><p class="eyebrow">资料与研究</p><h1 id="research-title">资料书架</h1><p class="intro-copy">上排看研究，下排找中文照护指南。左右滑动选一本，点封面翻阅原文。</p></div><div id="research-content"></div></section>
+  </main>
+  <footer class="site-footer"><p>环境生态学翻转课堂汇报小组整理 <span>· 资料核对 2026.10.10</span></p><button class="text-button" id="about-button" type="button">关于整理与使用</button></footer>
+  <dialog class="article-dialog" id="about-dialog" aria-labelledby="about-title"><div class="dialog-head"><h2 id="about-title">关于这份照护手册</h2><button class="dialog-close" id="about-close" type="button" aria-label="关闭说明">关闭</button></div><div class="dialog-body"><p>这份手册是环境生态学翻转课堂汇报小组依据公开资料整理的实践作品，围绕父亲如何分担照护、家务与规划展开。</p><h3>内容依据</h3><p>日常做法参考 WHO、UNICEF、NHS 与国家卫生健康委公开资料。资料书架保留完整 PDF、真实原文选页和版本说明；本网站尚未开展使用效果评估。</p><h3>阅读方式</h3><p>阶段清单先显示三件重点，其余事项可展开。资料书架按主题选书，点封面翻阅；勾选记录仅保存在当前浏览器。</p><h3>布局参考</h3><p><a href="https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/" target="_blank" rel="noopener noreferrer">NHS 阶段导航</a> · <a href="https://raisingchildren.net.au/grown-ups/fathers" target="_blank" rel="noopener noreferrer">Raising Children Network 父亲指南</a> · <a href="https://www.unicef.org/parenting/" target="_blank" rel="noopener noreferrer">UNICEF Parenting 图文组织</a> · <a href="https://huckleberrycare.com/age-guides/newborn" target="_blank" rel="noopener noreferrer">Huckleberry 阶段页</a></p><p class="source-footnote">只保存在本地。日常照护内容不代替个体诊疗意见；健康异常、特殊喂养与检查安排请联系专业医护人员。</p></div></dialog>
+</body>
+</html>

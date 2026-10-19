@@ -1,0 +1,41 @@
+{
+  "id": "paper-cognitive-labor",
+  "title": "Cognitive household labor: gender disparities and consequences for maternal mental health and wellbeing",
+  "shortTitle": "家务中的计划负担与心理健康",
+  "author": "Elizabeth Aviv；Yael Waizman；Elizabeth Kim；Jasmine Liu；Eve Rodsky；Darby Saxbe",
+  "year": 2025,
+  "group": "planning",
+  "type": "研究论文",
+  "sourceURL": "https://link.springer.com/article/10.1007/s00737-024-01490-w",
+  "pdfURL": "https://link.springer.com/content/pdf/10.1007/s00737-024-01490-w.pdf",
+  "summary": "322名幼儿母亲自报显示，家务中的计划负担比执行负担更不均衡，并与母亲心理状态相关；横断面结果不能证明因果。",
+  "readingFocus": "PDF第2–4页方法与样本；第5–6页结果和图1–2；第7–8页回归表与局限。",
+  "licenseNote": "©2024作者；CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。原PDF未改，选页JPEG仅作缩放渲染；作者及来源保留。",
+  "versionNote": "原刊最终版，Archives of Women's Mental Health 28:5–14（2025卷期）；2024年7月1日在线发表，DOI 10.1007/s00737-024-01490-w。",
+  "language": "英文",
+  "localPDF": "./assets/library/paper-cognitive-labor/original.pdf",
+  "cover": "./assets/library/paper-cognitive-labor/cover.jpg",
+  "previewPages": [
+    "./assets/library/paper-cognitive-labor/pages/page-01.jpg",
+    "./assets/library/paper-cognitive-labor/pages/page-02.jpg",
+    "./assets/library/paper-cognitive-labor/pages/page-03.jpg",
+    "./assets/library/paper-cognitive-labor/pages/page-04.jpg",
+    "./assets/library/paper-cognitive-labor/pages/page-05.jpg",
+    "./assets/library/paper-cognitive-labor/pages/page-06.jpg",
+    "./assets/library/paper-cognitive-labor/pages/page-07.jpg",
+    "./assets/library/paper-cognitive-labor/pages/page-08.jpg"
+  ],
+  "previewPageNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "pageCount": 10,
+  "previewNote": "原文选页预览（PDF页序：1、2、3、4、5、6、7、8）",
+  "sha256": "21775313d20d940f5d2e2ae86d82c566b9970a42ede9eb7eaa35eeb4c79847f2"
+}

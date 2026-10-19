@@ -1,0 +1,83 @@
+/* 第十版：放大正文，缩短后的卡片保持紧凑，层级靠字号而不是重复文字。 */
+:root {font-size:18px}
+.header-inner {gap:24px}
+.brand {font-size:1.6rem}
+.brand small {font-size:.78rem;line-height:1.5}
+.nav-button {font-size:1rem}
+.intro {padding:13px 18px;margin-bottom:15px}
+.intro h1 {font-size:1.9rem}
+.intro .eyebrow,.section-kicker {font-size:.8rem}
+.intro .intro-copy {font-size:1rem;line-height:1.7}
+.stage-panel h2 {font-size:1.05rem}
+.stage-panel label,.segment button,.primary-button {font-size:.94rem}
+.field-hint,.local-note,.stage-shortcuts summary {font-size:.8rem;line-height:1.65}
+.number-field input {font-size:1.6rem}
+.journey-track {grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}
+.journey-stop {padding:9px 12px;gap:9px}
+.journey-stop strong {font-size:.94rem;line-height:1.5}
+.journey-stop small {font-size:.75rem;line-height:1.5;white-space:normal}
+.journey-heading h2 {font-size:.86rem}
+.journey-number {font-size:.75rem}
+.stage-heading h2 {font-size:1.65rem;line-height:1.45}
+#stage-description {font-size:1rem;line-height:1.7}
+.stage-badge {font-size:.8rem}
+.task-heading h3 {font-size:1.1rem}
+.task-grid {gap:13px}
+.task-card {padding:15px 16px 13px}
+.task-card label {font-size:1.08rem;line-height:1.6}
+.task-card::before {font-size:.8rem}
+.task-check {width:20px;height:20px;margin-top:4px;flex-shrink:0}
+.task-description {font-size:1rem;line-height:1.8;margin-top:9px}
+.task-card details summary {font-size:.9rem}
+.task-card ol {font-size:.94rem;line-height:1.85;padding-left:20px}
+.task-tag {font-size:.72rem;line-height:1.6}
+.task-footer,#progress-message {font-size:.8rem}
+.progress-orbit {width:65px;height:65px}
+.progress-orbit #progress-count {font-size:.72rem}
+.more-tasks>summary,.stage-notes>summary {font-size:.94rem;padding-top:9px;padding-bottom:9px}
+.focus-card h3,.conversation-card p {font-size:1rem}
+.focus-card li {font-size:.94rem;line-height:1.8}
+.source-mini,.conversation-card>span,.source-links a {font-size:.8rem;line-height:1.75}
+.care-boundary {font-size:.82rem;line-height:1.8;margin-top:13px}
+.site-footer,.text-button {font-size:.82rem}
+.topic-tab {font-size:.94rem;padding:9px 13px}
+.content-split h2 {font-size:1.65rem;line-height:1.5}
+.topic-principle,.inline-actions li {font-size:1rem;line-height:1.8}
+.inline-actions {gap:11px 14px}
+.inline-actions li {padding:12px 14px 12px 40px}
+.inline-actions li::before {font-size:.78rem;top:15px;left:13px}
+.knowledge-sources summary,.extension-button {font-size:.9rem}
+.knowledge-extension h2 {font-size:1rem}
+.knowledge-note {font-size:.8rem;line-height:1.75}
+.article-dialog .dialog-body {font-size:1rem;line-height:1.8}
+.article-dialog .source-footnote {font-size:.82rem;line-height:1.8}
+.article-dialog h2 {font-size:1.5rem}
+.article-dialog h3 {font-size:1.1rem}
+.dialog-close {font-size:.94rem}
+.mental-tab strong {font-size:1rem}
+.mental-tab small {font-size:.75rem}
+.reader-heading h2 {font-size:1.35rem}
+.reader-metadata,.reader-selection-note,.reader-actions,.reader-page-status {font-size:.8rem}
+.reader-guide-page h3 {font-size:30px}
+.reader-guide-page p {font-size:17px;line-height:1.8}
+.reader-guide-page h4 {font-size:18px}
+.reader-guide-page .book-page-kicker {font-size:14px}
+.reader-guide-page .version-note,.reader-guide-page .guide-page-footer {font-size:14px;line-height:1.75}
+.reader-cover-page h3 {font-size:35px}
+.reader-cover-page .reader-cover-type,.reader-cover-page .reader-cover-author,.reader-cover-page .guide-page-footer {font-size:14px}
+.reader-controls button {font-size:.9rem}
+.reader-page-input {font-size:.8rem}
+.paper-page {padding-bottom:43px}
+.paper-page figcaption {font-size:12px;line-height:1.55}
+@media(max-width:1150px) {.workspace {grid-template-columns:220px minmax(0,1fr);gap:18px}.task-grid {grid-template-columns:1fr}.task-card {padding:13px 16px}.task-card::before {float:left;margin:6px 9px 0 0}.task-card label {font-size:1.05rem}.task-description {margin-top:6px}.task-card .task-top {gap:10px}}
+@media(max-width:760px) {
+ :root {font-size:17px}
+ .header-inner {padding:12px 18px 10px;gap:12px}.brand {font-size:1.55rem}.brand small {font-size:.8rem}.header-inner nav {gap:24px}.nav-button {font-size:1rem}
+ .page-shell {padding:14px 18px 18px}.intro {padding:12px 14px;margin-bottom:14px}.intro h1 {font-size:1.65rem}.intro .intro-copy {font-size:1rem}
+ .journey-track {grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}.journey-stop {padding:8px 6px;min-height:68px}.journey-stop strong {font-size:.88rem;white-space:nowrap}.journey-stop small {font-size:.75rem;line-height:1.5}.journey-heading h2 {font-size:.86rem}
+ .workspace {grid-template-columns:1fr;gap:15px}.stage-panel {padding:13px 14px}.stage-panel h2 {font-size:1.05rem}.field-hint,.local-note {font-size:.84rem}.stage-heading {padding:9px 0;margin-bottom:9px}.stage-heading h2 {font-size:1.5rem}.stage-heading img {height:88px}
+ .task-card {padding:13px 14px}.task-card label {font-size:1.1rem}.task-card::before {font-size:.8rem}.task-description {font-size:1rem;line-height:1.8}.task-card details summary {font-size:.94rem}.task-card ol {font-size:.98rem}.task-footer {font-size:.86rem}.care-boundary {font-size:.86rem}
+ .progress-orbit {width:61px;height:61px}.progress-orbit #progress-count {font-size:.74rem}.topic-tab {font-size:.9rem;padding:9px 6px}.content-split h2 {font-size:1.5rem}.topic-principle,.inline-actions li {font-size:1rem}.inline-actions li {padding:12px 12px 12px 37px}.inline-actions li::before {font-size:.78rem;top:14px;left:11px}.extension-button {font-size:.94rem}.knowledge-note {font-size:.86rem}
+ .site-footer,.text-button {font-size:.86rem}.reader-guide-page {padding:18px}.reader-guide-page h3 {font-size:26px}.reader-guide-page p {font-size:17px}.reader-guide-page .version-note,.reader-guide-page .guide-page-footer {font-size:14px}.reader-heading h2 {font-size:1.2rem}.reader-metadata,.reader-selection-note,.reader-page-status,.reader-actions {font-size:.8rem}
+}
+@media(max-width:380px) {.header-inner,.page-shell {padding-left:14px;padding-right:14px}.journey-stop strong {font-size:.85rem}.journey-stop small {font-size:.72rem}}

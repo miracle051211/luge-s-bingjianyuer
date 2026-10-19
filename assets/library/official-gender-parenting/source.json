@@ -1,0 +1,38 @@
+{
+  "id": "official-gender-parenting",
+  "title": "Tip Sheets on Gender-Responsive Parenting (Annex 1)",
+  "shortTitle": "父亲参与与家庭分工",
+  "author": "UNICEF Gender Section",
+  "year": 2021,
+  "group": "planning",
+  "sourceURL": "https://www.unicef.org/eca/media/16446/file/Tips_on_Gender_Responsive_Parenting.pdf",
+  "summary": "围绕平等养育、父亲参与和照护者支持给出家庭行动提示，强调父亲共同承担家务、日常照护与规划。",
+  "readingFocus": "“Engaging fathers in childcare”：PDF第4页；照护者支持：PDF第6页。",
+  "licenseNote": "UNICEF官网公开PDF；文件未发现单独开放许可声明，保留原文与摄影署名，仅作为本地课堂资料。",
+  "yearEvidence": "PDF创建日期2021-02-03；UNICEF Innocenti 2022报告书目将本提示页列为UNICEF Gender Section 2021d。",
+  "type": "官方指南",
+  "language": "英文",
+  "pdfURL": "https://www.unicef.org/eca/media/16446/file/Tips_on_Gender_Responsive_Parenting.pdf",
+  "localPDF": "./assets/library/official-gender-parenting/original.pdf",
+  "cover": "./assets/library/official-gender-parenting/cover.jpg",
+  "previewPages": [
+    "./assets/library/official-gender-parenting/pages/preview-01.jpg",
+    "./assets/library/official-gender-parenting/pages/preview-02.jpg",
+    "./assets/library/official-gender-parenting/pages/preview-03.jpg",
+    "./assets/library/official-gender-parenting/pages/preview-04.jpg",
+    "./assets/library/official-gender-parenting/pages/preview-05.jpg",
+    "./assets/library/official-gender-parenting/pages/preview-06.jpg"
+  ],
+  "previewPageNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "pageCount": 6,
+  "previewNote": "原文选页预览（PDF页序）；原PDF完整保留。",
+  "sha256": "0a86a4bf3bdbc406dc620d1ec81ec7f4754f340037726b6018787af7e4653868",
+  "pageCountNote": "按下载PDF的实际页数计，包含封面、版权、目录等；与出版网页或正文印刷页数口径可能不同。"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "official-child-development",
+  "title": "Care for Child Development: Participant Manual",
+  "shortTitle": "儿童发展照护手册",
+  "author": "WHO、UNICEF",
+  "year": 2012,
+  "group": "care",
+  "sourceURL": "https://www.unicef.org/documents/care-child-development",
+  "summary": "通过观察、游戏和交流支持儿童发展，按照年龄列出可操作的互动做法，并把父亲纳入照护者范围。",
+  "readingFocus": "谁是照护者：印刷页4（PDF第8页）；分龄游戏与交流：印刷页10、12–13、18（PDF第14、16–17、22页）。",
+  "licenseNote": "原PDF版权页为© WHO 2012、All rights reserved；WHO现行出版页标CC BY-NC-SA 3.0 IGO；原件署名保留。",
+  "type": "官方指南",
+  "language": "英文",
+  "pdfURL": "https://www.unicef.org/media/91176/file/3-CCD-Participant-Manual.pdf",
+  "localPDF": "./assets/library/official-child-development/original.pdf",
+  "cover": "./assets/library/official-child-development/cover.jpg",
+  "previewPages": [
+    "./assets/library/official-child-development/pages/preview-01.jpg",
+    "./assets/library/official-child-development/pages/preview-02.jpg",
+    "./assets/library/official-child-development/pages/preview-03.jpg",
+    "./assets/library/official-child-development/pages/preview-04.jpg",
+    "./assets/library/official-child-development/pages/preview-05.jpg",
+    "./assets/library/official-child-development/pages/preview-06.jpg",
+    "./assets/library/official-child-development/pages/preview-07.jpg",
+    "./assets/library/official-child-development/pages/preview-08.jpg"
+  ],
+  "previewPageNumbers": [
+    1,
+    2,
+    4,
+    8,
+    14,
+    16,
+    17,
+    22
+  ],
+  "pageCount": 50,
+  "previewNote": "原文选页预览（PDF页序）；原PDF完整保留。",
+  "sha256": "0898adb256a1c12f5a69d0d85b35f582857ba702f0406cb2c65df99dea6df773",
+  "pageCountNote": "按下载PDF的实际页数计，包含封面、版权、目录等；与出版网页或正文印刷页数口径可能不同。",
+  "yearEvidence": "原PDF版权页与官方出版页核对。"
+}

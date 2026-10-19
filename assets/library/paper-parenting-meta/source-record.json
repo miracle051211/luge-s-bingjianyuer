@@ -1,0 +1,41 @@
+{
+  "id": "paper-parenting-meta",
+  "title": "Parenting interventions to promote early child development in the first three years of life: A global systematic review and meta-analysis",
+  "shortTitle": "早期养育干预：全球证据",
+  "author": "Joshua Jeong；Emily E. Franchett；Clariana V. Ramos de Oliveira；Karima Rehmani；Aisha K. Yousafzai",
+  "year": 2021,
+  "group": "development",
+  "type": "研究论文",
+  "sourceURL": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1003602",
+  "pdfURL": "https://journals.plos.org/plosmedicine/article/file?id=10.1371/journal.pmed.1003602&type=printable",
+  "summary": "汇总33国102项随机试验：早期养育干预整体改善儿童发展和亲子互动，但多数试验只支持母亲，不能等同于父亲专门干预。",
+  "readingFocus": "PDF第1–2页摘要；第4页方法；第7页筛选流程；第24页认知发展森林图；第33–34页互动与抑郁；第40页结论。",
+  "licenseNote": "©2021 Jeong等；PLOS开放获取，CC BY（https://creativecommons.org/licenses/by/4.0/）。原PDF未改，选页JPEG仅作缩放渲染；作者及来源保留。",
+  "versionNote": "PLOS Medicine 18(5):e1003602，2021年5月10日正式发表，原刊PDF。此项是全球养育干预系统综述，不能当作2024年坦桑尼亚父亲参与试验。",
+  "language": "英文",
+  "localPDF": "./assets/library/paper-parenting-meta/original.pdf",
+  "cover": "./assets/library/paper-parenting-meta/cover.jpg",
+  "previewPages": [
+    "./assets/library/paper-parenting-meta/pages/page-01.jpg",
+    "./assets/library/paper-parenting-meta/pages/page-02.jpg",
+    "./assets/library/paper-parenting-meta/pages/page-03.jpg",
+    "./assets/library/paper-parenting-meta/pages/page-04.jpg",
+    "./assets/library/paper-parenting-meta/pages/page-05.jpg",
+    "./assets/library/paper-parenting-meta/pages/page-06.jpg",
+    "./assets/library/paper-parenting-meta/pages/page-07.jpg",
+    "./assets/library/paper-parenting-meta/pages/page-08.jpg"
+  ],
+  "previewPageNumbers": [
+    1,
+    2,
+    4,
+    7,
+    24,
+    33,
+    34,
+    40
+  ],
+  "pageCount": 51,
+  "previewNote": "原文选页预览（PDF页序：1、2、4、7、24、33、34、40）",
+  "sha256": "b6f65d986dde9674f2db0a226d966eea3775eaa587af95d6e72caa89cc70a282"
+}

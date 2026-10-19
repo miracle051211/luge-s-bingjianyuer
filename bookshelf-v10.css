@@ -1,0 +1,39 @@
+/* 第十版：单一资料书架，来源索引独立弹窗；旧图表面板不再加载。 */
+.library-header {display:flex;align-items:center;justify-content:space-between;gap:16px;padding:8px 0 12px;margin-bottom:12px;border-bottom:1px solid var(--line);color:var(--muted);font-size:14px}
+.library-header .library-source-entry {padding:8px 12px;background:white;border:1px solid var(--line);color:var(--navy);font-size:15px;white-space:nowrap}
+.library-filter,.library-search input {font-size:15px}
+.library-result-line,.library-bottom,.library-pagination button {font-size:13px}
+.shelf-row-title {font-size:13px;letter-spacing:.3px}
+.book-jacket {height:238px}
+.book-jacket-top {font-size:12px}
+.book-jacket-title {font-size:17px;line-height:1.45;min-height:49px}
+.book-jacket-author {font-size:12px}
+.book-page-thumb::after {font-size:10px}
+.book-open-hint {font-size:12px}
+.reader-metadata,.reader-selection-note,.reader-page-status,.reader-actions a,.reader-touch-hint {font-size:13px}
+.reader-heading .dialog-close,.reader-controls button,.reader-display-toggle button {font-size:14px}
+.source-library-dialog {width:min(1000px,calc(100% - 40px));max-height:88dvh}
+.source-library-dialog .dialog-head {align-items:flex-start}
+.source-library-dialog .dialog-head p {margin:4px 0 0;font-size:15px;color:var(--muted)}
+.source-library-dialog .dialog-head h2 {font-size:24px;line-height:1.4}
+.source-library-dialog .dialog-close {flex-shrink:0;font-size:16px}
+.source-library-dialog .dialog-body {overflow-y:auto}
+.source-library-dialog .research-library-tools>label {font-size:15px}
+.source-library-dialog .research-library-tools input,.source-library-dialog .research-library-tools select {font-size:17px}
+.source-library-dialog .research-library-item h3 {font-size:19px}
+.source-library-dialog .research-library-item h3 a {font-size:19px;line-height:1.55;text-decoration-thickness:1px}
+.source-library-dialog .research-library-item p,.source-library-dialog .research-library-item summary {font-size:16px;line-height:1.65}
+.source-library-dialog .research-library-item .study-type {font-size:13px}
+.source-library-dialog .research-pagination button,.source-library-dialog .research-library-status {font-size:15px}
+@media(max-width:760px){
+ .library-header {font-size:13px;gap:8px}
+ .library-header .library-source-entry {font-size:14px;padding:7px 9px}
+ .library-filter {font-size:14px;padding:6px}
+ .book-jacket {height:221px}
+ .book-jacket-title {font-size:16px;min-height:46px}
+ .book-jacket-author {font-size:11px}
+ .source-library-dialog {width:calc(100% - 20px);max-height:90dvh}
+ .source-library-dialog .dialog-head h2 {font-size:22px}
+ .source-library-dialog .research-library-item h3 a {font-size:18px}
+ .source-library-dialog .research-library-item p {font-size:16px}
+}
